@@ -1,0 +1,867 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*------------------- 
+Header style starts
+--------------- */
+
+.header {
+  background: rgba(255, 144, 14, 0.1);
+  width: 100%;
+  height: 1000px;
+}
+
+/* nav styles starts */
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-container .nav-tittle h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+  color: #131313;
+  margin-left: 100px;
+}
+
+.nav-container .nav-links {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #424242;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-right: 150px;
+}
+
+.nav-links li {
+  list-style-type: none;
+}
+
+/* nav styles ends */
+
+/* header details style starts */
+
+.header-details {
+  text-align: center;
+}
+
+.header-title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+  color: #131313;
+  margin-bottom: 8px;
+}
+
+.header-desc {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #727272;
+  margin-bottom: 8px;
+}
+.btn {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  background: #ff900e;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+}
+/* header details style ends */
+
+/* banner img style starts */
+.banner-img {
+  margin-top: 40px;
+}
+.banner-img img {
+  width: 80%;
+  height: 100%;
+  margin-left: 100px;
+  text-align: center;
+}
+
+/* banner img style ends */
+
+/*------------------- 
+Header style ends
+--------------- */
+
+/* -----------------
+main styles starts
+-------------------- */
+
+/* features list section style starts */
+
+.features-list-section {
+  margin-top: 60px;
+}
+.features-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.images {
+  width: 40%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 15px;
+  column-gap: 15px;
+  margin-left: 40px;
+}
+
+.images .image {
+  border-radius: 8px;
+}
+.image img {
+  width: 100%;
+}
+
+.features-details {
+  margin-right: 50px;
+  padding: 60px;
+}
+.features-title {
+  font-family: "Work Sans";
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+  margin-bottom: 10px;
+}
+.color-text1 {
+  color: #727272;
+}
+.color-text2 {
+  color: #131313;
+  font-weight: bold;
+}
+.color-text3 {
+  color: #ff900e;
+  font-weight: bold;
+}
+
+.features-desc {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 10px;
+}
+
+.btn-features {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* features list section style ends */
+
+/* features love and enjoy section style starts  */
+
+.features-love-enjoy-section {
+  margin-top: 60px;
+  margin-left: 70px;
+
+}
+
+.features-love-enjoy-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  padding: 30px;
+  margin-left: 70px;
+}
+
+.features-love-enjoy-details{
+  position: relative;
+}
+.left-border {
+  border-left: 0.5px solid #ff900e;
+  background: #ff900e;
+  width: 3.5px;
+  position: absolute;
+  height: 91px;
+  left: -15px;
+   
+}
+
+.features-love-enjoy-details {
+  margin-left: 40px;
+}
+.features-love-enjoy-title {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 10px;
+}
+.features-love-enjoy-desc {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+
+.features-love-enjoy-list {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 15px;
+}
+.list-title {
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+}
+.ellipsis{
+  padding:20px;
+}
+
+.ellipsis p{
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  overflow: hidden;
+}
+.list-desc {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  /* height: 70px; */
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* padding: 20px; */
+}
+
+.features-love-enjoy-image {
+  width: 40%;
+  margin-right: 150px;
+}
+
+.features-love-enjoy-image img {
+  width: 100%;
+  position: relative;
+}
+
+.experience {
+  background: #ff900e;
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  width: 280px;
+  height: 200px;
+  margin-left: -70px;
+  margin-top: -120px;
+  /* z-index: 1; */
+}
+
+.year {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 65px;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 20px 0 20px;
+}
+
+.title {
+  font-family: "Work Sans";
+  font-weight: 500;
+  font-size: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* features love and enjoy section style ends  */
+
+
+/* some facts section styles starts */
+.some-facts-section {
+  margin-top: 200px;
+}
+.some-facts-details {
+  margin-left: 200px;
+}
+.some-fact-title {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.some-fact-desc {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+
+.icons {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+ 
+}
+
+
+.icon {
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  transition: transform .9s linear ease-in-out;
+}
+
+
+.icon:hover {
+  transform: scale(1.5);
+  border:0.5px solid  #ff900e;
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(255, 255, 0,0.6);
+}
+
+.icon .count {
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 45px;
+
+  color: #424242;
+}
+
+.icon .icon-title {
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
+}
+
+/* some facts section styles ends */
+
+
+/* sponsors section  style starts */
+.sponsors-section {
+  margin-top: 60px;
+}
+
+.sponsors-details {
+  text-align: center;
+}
+
+.sponsors-title {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.sponsors-desc {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+
+.sponsor-logos{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 50px;
+}
+
+.sponsor1{
+  filter: invert(50%);
+  -webkit-filter: invert(50%);
+}
+.sponsor2{
+  filter: sepia(50%);
+  -webkit-filter: sepia(100%);
+}
+.sponsor3{
+  filter: sepia(30%);
+  -webkit-filter: sepia(100%);
+   
+}
+.sponsor4{
+  filter: invert(80%);
+  -webkit-filter: invert(30%);
+}
+
+.sponsor5{
+  filter: invert(10%);
+  -webkit-filter: invert(40%);
+}
+
+ 
+
+
+/* sponsors section  style ends */
+
+/* extra section styles starts */
+.extra-section{
+    margin-top: 60px;
+    margin-left:250px ;
+    margin-right:150px ;
+}
+.extra-section-title{
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  text-align: center;
+}
+
+.testimonials{
+    max-width: 1440px;
+    margin:10px auto;
+    padding:20px;
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    gap:30px;
+
+}
+
+.card{
+    background:#fff;
+    border-radius:10px;
+    padding: 30px;
+    box-shadow: rgba(17, 12,46,0.15) 0px 40px 100px 0px;
+    margin-bottom: 10px;
+
+}
+.card-header{
+    display:flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.card-header h3{
+    font-size: 15px;
+}
+
+.card-header p{
+    opacity: 50%;
+}
+
+.card-img{
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    border: 2px solid #996ed9;
+    margin-right: 10px;
+}
+
+.card-lead{
+    font-size:1.5rem;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.card-quote{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.4;
+    opacity: 70%;
+
+}
+
+.card-bg-purple{
+   background:hsl(263, 55%, 52%);
+   color: #fff; 
+    
+}
+
+.card-bg-gray-blue{
+    background:hsl(217, 19%, 35%);
+    color: #fff; 
+ }
+ .card-bg-black-blue{
+    background:hsl(219, 29%, 14%);
+    color: #fff; 
+
+ }
+
+ .card:nth-of-type(1){
+     grid-column: 1 / 3;
+ }
+
+ .card:nth-of-type(4){
+    grid-column: 2 / 4;
+    grid-row: 2 ;
+}
+
+.card:nth-of-type(5){
+    grid-column:4;
+    grid-row: 1 / 3 ;
+}
+
+
+
+
+/* extra section styles ends */
+
+
+/* -----------------
+main styles ends
+-------------------- */
+
+
+/* footer styes starts */
+.footer{
+margin-top:60px;
+width: 1000px;
+height: 70px;
+background: #FFF4E7;
+border-radius: 8px;
+margin-top: 60px;
+margin-left: 290px;
+margin-bottom: 100px;
+}
+
+.footer-desc{
+font-family: 'Work Sans';
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #424242;
+padding: 30px;
+
+}
+
+/* footer styes ends */
+
+
+
+/* Responsive With mobile device style starts */
+@media only screen and (max-width: 576px) {
+  /*------------------- header part responsive with mobile scree starts -----------------------*/
+
+  .header {
+    height: 660px;
+  }
+
+  .nav-container .nav-tittle h3 {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 90px;
+  }
+
+  .nav-links {
+    display: block;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+
+  .nav-links li {
+    padding: 5px;
+  }
+
+  .header-title {
+    font-size: 30px;
+    padding: 5px;
+    margin-bottom: 0;
+  }
+
+  .header-desc {
+    font-size: 14px;
+    padding: 15px;
+  }
+
+  .btn-header {
+    font-size: 18px;
+  }
+
+  .banner-img {
+    margin-top: 40px;
+    margin-right: 45px;
+  }
+  .banner-img img {
+    width: 100%;
+    height: 100%;
+    margin-left: 30px;
+  }
+
+  /*------------------- header part responsive with mobile scree ends ----------------------*/
+
+  /*-------------------- main part responsive with mobile scree starts -----------------*/
+
+  /* features list section responsive with mobile scree starts */
+   
+  .features-container {
+    display: flex;
+    flex-wrap: wrap;    
+   
+  }
+
+  .images {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+  }
+
+  .images .image {
+    border-radius: 8px;
+  }
+  .image img {
+    width: 100%;
+  }
+
+  .features-details {
+    margin-left: 50px;
+  }
+  .features-title {
+    font-family: "Work Sans";
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 10px;
+  }
+  .color-text1 {
+    color: #727272;
+  }
+  .color-text2 {
+    color: #131313;
+    font-weight: bold;
+  }
+  .color-text3 {
+    color: #ff900e;
+    font-weight: bold;
+  }
+
+  .features-desc {
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 10px;
+  }
+
+  /* features list section responsive with mobile scree ends */
+
+  /* features love & enjoy section responsive with mobile scree starts */
+
+
+
+  .features-love-enjoy-section {
+    margin-right: 90px;
+  }
+
+  .features-love-enjoy-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .features-love-enjoy-details{
+    position: relative;
+  }
+  .left-border {
+    border-left: 0.5px solid #ff900e;
+    background: #ff900e;
+    width: 3.5px;
+    position: absolute;
+    height: 200px;
+    top: 0px;
+    left:-14px;
+    
+  }
+
+  .features-love-enjoy-title {
+    margin-bottom: 15px;
+  }
+  .features-love-enjoy-desc {
+    margin-bottom: 20px;
+  }
+
+  .features-love-enjoy-image {
+    width: 100%;
+    margin-right: 10px;
+  }
+
+  .features-love-enjoy-image img {
+    width: 100%;
+    margin-left: 10px;
+    position: relative;
+     
+  }
+
+  .experience {
+    background: #ff900e;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    height: 100px;
+    margin-top:20px;
+    margin-left:10px;
+    position: absolute;
+  }
+
+  .year {
+    font-size: 25px;
+  }
+  .title {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+
+  /* features love & enjoy section responsive with mobile scree ends */
+
+
+
+/* some facts section responsive styles  with mobile screen starts */
+.some-facts-section {
+  margin-top: 150px;
+}
+.some-facts-details {
+  margin-left:80px ;
+
+}
+ 
+.icons {
+  display: block;
+  margin-left: 40px;
+  width: 300px;
+  transition: width 5s linear ease-in-out;
+}
+
+.icon {
+  padding: 20px;
+  margin: 40px 40px 40px 20px;
+}
+.icon:hover {
+  width: 150px;
+  margin-left:130px;
+  /* height: 250px; */
+}
+.icon .count {
+  font-size: 40px;
+}
+.icon .icon-title {
+  font-size: 25px;
+}
+/* some facts section responsive styles  with mobile screen starts */
+
+
+/* sponsors section responsive with mobile screen  style starts */
+
+.sponsors-section {
+  margin-left: 20px;
+
+}
+ 
+.sponsors-title {
+   margin-bottom: 10px;
+}
+.sponsors-desc {
+  font-size: 16px;
+  margin-left: 40px;
+}
+
+.sponsor-logos{
+    margin-top: 30px;
+    display: block;
+     margin: 50px 0 50px 80px;
+}
+.sponsor-logos .logo{
+  margin-top: 70px;
+}
+
+/* sponsors section responsive with mobile screen  style ends */
+
+
+
+ /* Extra section responsive with mobile screen style starts */
+.extra-section{
+  margin-left: 80px;
+}
+.extra-section-title{
+  margin-left: 20px;
+}
+
+  .testimonials{
+    grid-template-columns:1fr ;
+}
+
+.card:nth-of-type(1){
+    grid-column: 1;
+}
+
+.card:nth-of-type(4){
+   grid-column: 1;
+   grid-row: 4 ;
+}
+
+.card:nth-of-type(5){
+   grid-column:1;
+   grid-row: 5 ;
+}
+ /* Extra section responsive with mobile screen style ends */
+
+
+
+
+  /*-------------------- main part responsive with mobile scree ends --------------------------*/
+
+
+  
+/* footer responsive with mobile screen style starts */
+.footer{
+  margin-top:60px;
+  width: 324px;
+  height: 70px;
+  background: #FFF4E7;
+  border-radius: 8px;
+  margin: 0 auto;
+
+  }
+  
+  .footer-desc{
+  font-size: 16px;
+  padding: 20px;
+  
+  }
+  
+  /* footer responsive with mobile device styles ends */
+  
+
+
+ 
+}
+
+ /* Responsive With mobile device style ends */
+/* 
+.header{
+    display: none;
+} */
