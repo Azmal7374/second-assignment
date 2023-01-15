@@ -713,7 +713,6 @@ padding: 30px;
 
   .features-love-enjoy-image img {
     width: 170%;
-    /* margin-left: 10px; */
     position: relative;
      
   }
@@ -725,15 +724,15 @@ padding: 30px;
     width: 140px;
     height: 100px;
     margin-top:20px;
-    /* margin-right:0px; */
     position: absolute;
+    
   }
 
   .year {
-    font-size: 25px;
+    font-size: 18px;
   }
   .title {
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 5px;
   }
 
@@ -771,10 +770,10 @@ padding: 30px;
 }
  
 .icon .count {
-  font-size: 40px;
+  font-size: 22px;
 }
 .icon .icon-title {
-  font-size: 25px;
+  font-size: 15px;
 }
 /* some facts section responsive styles  with mobile screen starts */
 
